@@ -28,4 +28,9 @@ public class MessageSenderImpl implements MessageSender {
         }
         return localizationService.locale(Country.USA);
     }
+
+    @Override
+    public String sendMessage(String s) {
+        return "";
+    }
 }
